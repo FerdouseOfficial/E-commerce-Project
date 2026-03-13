@@ -1,7 +1,7 @@
 import React from "react";
-import { EcomContext } from "./Context/EcomContext";
 import Card from "./Component/Card";
 import Cart from "./Component/Cart";
+import { CartContext } from "./Context/Cart";
 
 const App = () => {
   return (
