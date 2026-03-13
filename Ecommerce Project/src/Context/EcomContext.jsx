@@ -2,11 +2,11 @@ import { Children, createContext, useState } from "react";
 
 export const EcomContext = createContext(null);
 
-export const EcomConProvider = ({ Children }) => {
+export const EcomConProvider = ({ children }) => {
   const [addcart, setAddcart] = useState(0);
   return (
     <EcomContext.Provider value={{ addcart, setAddcart }}>
-      {Children}
+      {children}
     </EcomContext.Provider>
   );
 };
