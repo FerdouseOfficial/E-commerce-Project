@@ -1,7 +1,12 @@
 import React from "react";
+import { EcomContext } from "./Context/EcomContext";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <h1>Hi</h1>
+    </div>
+  );
 };
 
 export default App;
